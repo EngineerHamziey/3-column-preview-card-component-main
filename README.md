@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component
 
-![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the 3-column preview card component coding challenge](https://engineer-hamziey-3-column-preview-card.netlify.app)
 
 ## Welcome! 👋
 
