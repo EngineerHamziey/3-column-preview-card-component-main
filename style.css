@@ -16,8 +16,6 @@
 }
 
 
-
-
 body {
   font-size: 0.8rem;
   color: var(--Transparent-white);
@@ -35,20 +33,24 @@ body {
 
 #card-container {
   list-style-type: none;
-  margin: 3rem 2rem;
+  margin: 5rem 3rem 3rem 3rem;
 }
 
 .heading {
   color: var(--Very-light-gray);
-  padding: 1.2rem 0;
+  margin: 1.5rem 0;
   font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .cards {
-  padding: 3rem 2.5rem;
+  padding: 2.5rem 2.5rem 0 2.5rem;
   max-width: 20rem;
+}
+
+img {
+  width: 3.5rem;
 }
 
 .cards:first-child {
@@ -69,10 +71,15 @@ body {
   text-decoration: none;
   background: var(--Very-light-gray);
   display: inline-block;
-  margin-top: 1.2rem;
   padding: 0.5rem 1.5rem;
   border-radius: 1.5rem;
   border: 0.1rem solid var(--Very-light-gray);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.ads {
+  margin-bottom: 2rem;
 }
 
 .cards:first-child a {
@@ -110,6 +117,7 @@ body {
   font-size: 11px;
   text-align: center;
   color: var(--Very-dark-cyan);
+  padding: 0 1rem;
 }
 
 .attribution a {
@@ -122,6 +130,14 @@ body {
     display: flex;
   }
 
+  .heading {
+    font-size: 2rem;
+  }
+
+  .ads {
+    margin-bottom: 3rem;
+  }
+
   .cards:first-child {
     border-radius: 0.4rem 0 0 0.4rem;
   }
@@ -130,3 +146,4 @@ body {
     border-radius: 0 0.4rem 0.4rem 0;
   }
 }
+
