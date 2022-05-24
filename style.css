@@ -45,7 +45,7 @@ body {
 }
 
 .cards {
-  padding: 2.5rem 2.5rem 0 2.5rem;
+  padding: 2.5rem 2.5rem 4rem 2.5rem;
   max-width: 20rem;
 }
 
@@ -136,6 +136,16 @@ img {
 
   .ads {
     margin-bottom: 3rem;
+  }
+
+  .cards {
+    position: relative;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 0;
+    left: 2.5rem;
   }
 
   .cards:first-child {
