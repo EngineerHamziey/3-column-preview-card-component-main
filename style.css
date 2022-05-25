@@ -46,10 +46,13 @@ body {
   max-width: 20rem;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 img {
   width: 3.5rem;
+  display: block;
+  margin: 1rem 0;
 }
 
 .cards:first-child {
@@ -72,7 +75,7 @@ img {
   display: inline-block;
   padding: 0.5rem 1.5rem;
   border-radius: 1.5rem;
-  margin-bottom: 2.5rem;
+  /* margin-bottom: 0.5rem; */
   border: 0.1rem solid var(--Very-light-gray);
   text-align: center;
   transition: background, 0.5s ease-in;
@@ -140,15 +143,16 @@ img {
   }
 
   .heading {
-    font-size: 2rem;
+    /* font-size: 2rem; */
+
   }
 
   .ads {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 
   .btn {
-    margin: auto 0 2.5rem 0;
+    margin: auto 0 1rem 0;
   }
 
   .cards:first-child {
